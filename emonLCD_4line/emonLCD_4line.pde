@@ -88,7 +88,7 @@ void loop () {
   //print power value on LCD
   itoa((int)emontx.ct,str,10);
   strcat(str,"W   ");
-  mySerial.print(str);
+  Serial.print(str);
    
   selectLineThree();
   delay(100);
